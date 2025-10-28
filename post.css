@@ -1,0 +1,106 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.container{
+    background-color:rgb(136, 186, 219);
+    width:100%;
+}
+.container .row{
+    margin: auto;
+    width: 80%;
+
+}
+.container .row .header{
+    text-align: center;
+    margin: auto;
+    width: 60%;
+}
+.container .row .header h1{
+    color: rgb(16, 49, 231);
+    padding-top: 20px;
+    font-size: 65px;
+}
+.container .header .row p {
+    margin-top: 15px;
+    line-height: 1.5;
+    font-size: 15px;
+    color: #d5e098;
+}
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+.content .card{
+    flex: 1;
+    border-radius: 25px;
+    margin: 50px 20px;
+    overflow: auto;
+    background-color: #96e7f5;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.2);
+}
+.content .card img{
+    width: 100%;
+    height: auto;
+}
+.content .card p{
+    font-size: 15px;
+    line-height: 1.5;
+    padding: 10px;
+    color:rgba(12, 108, 172, 0.74);
+}
+.content .card h3{
+    color: rgba(7, 46, 221, 0.432);
+    text-align:center ;
+    font-size: 35px;
+
+}
+.content .card .one {
+    color: rgb(0, 26, 255);
+     text-align:center ;
+     font-size: 10px;
+
+}
+.content .card .two{
+    color: rgb(22, 51, 212);
+    text-align:center ;
+     font-size: 10px;
+
+}
+.content .card .three{
+    color: rgb(15, 86, 218);
+    text-align:center ;
+     font-size: 10px;
+
+}
+.content .card .footer1{
+    text-align: center;
+    display: flex;
+    padding: 10px;
+    margin:0px;
+    justify-items:center;
+    background-color:rgb(221, 26, 52);
+    justify-content: space-around;
+}
+.content .card .footer2{
+    text-align: center;
+    display: flex;
+    padding: 10px;
+    margin:0px;
+    justify-items:center;
+    background-color:rgba(240, 116, 14, 0.733);
+    justify-content: space-around;
+}
+.content .card .footer3{
+    text-align: center;
+    display: flex;
+    padding:10px;
+    margin:0px;
+    justify-items:center;
+    background-color:rgb(198, 11, 235);
+    justify-content: space-around;
+}
